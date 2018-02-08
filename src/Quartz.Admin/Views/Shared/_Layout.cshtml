@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html style="height:100%;">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Quartz.Admin</title>
+    <link type="text/css" href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <link type="text/css" href="~/css/bootstrap-responsive.min.css" rel="stylesheet" />
+    <link type="text/css" href="~/css/theme.css" rel="stylesheet" />
+    <link type="text/css" href="~/css/font-awesome.css" rel="stylesheet" />
+    <link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600' rel='stylesheet'>
+    <script type="text/javascript" src="~/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="~/js/jquery-ui-1.10.1.custom.min.js"></script>
+    <script type="text/javascript" src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/js/flot/jquery.flot.js"></script>
+</head>
+<body style="height:100%;">
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="brand">
+                    配置中心
+                </a>
+            </div>
+        </div>
+    </div>
+    @RenderBody()
+    <div class="footer" style="position: absolute;bottom:0;left:0;right:0;">
+        <div class="container">
+            <b class="copyright">&copy; 2017 - Quartz.Admin </b> All rights reserved.
+        </div>
+    </div>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,13 @@
+C:\project\CODE\ABI\dev\Quartz.Admin\Quartz.Admin\bin\Debug\netcoreapp2.0\Quartz.Admin.deps.json
+C:\project\CODE\ABI\dev\Quartz.Admin\Quartz.Admin\bin\Debug\netcoreapp2.0\Quartz.Admin.runtimeconfig.json
+C:\project\CODE\ABI\dev\Quartz.Admin\Quartz.Admin\bin\Debug\netcoreapp2.0\Quartz.Admin.runtimeconfig.dev.json
+C:\project\CODE\ABI\dev\Quartz.Admin\Quartz.Admin\bin\Debug\netcoreapp2.0\Quartz.Admin.dll
+C:\project\CODE\ABI\dev\Quartz.Admin\Quartz.Admin\obj\Debug\netcoreapp2.0\Quartz.Admin.csprojResolveAssemblyReference.cache
+C:\project\CODE\ABI\dev\Quartz.Admin\Quartz.Admin\obj\Debug\netcoreapp2.0\Quartz.Admin.csproj.CoreCompileInputs.cache
+C:\project\CODE\ABI\dev\Quartz.Admin\Quartz.Admin\obj\Debug\netcoreapp2.0\Quartz.Admin.AssemblyInfoInputs.cache
+C:\project\CODE\ABI\dev\Quartz.Admin\Quartz.Admin\obj\Debug\netcoreapp2.0\Quartz.Admin.AssemblyInfo.cs
+C:\project\CODE\ABI\dev\Quartz.Admin\Quartz.Admin\bin\Debug\netcoreapp2.0\Quartz.Admin.pdb
+C:\project\CODE\ABI\dev\Quartz.Admin\Quartz.Admin\obj\Debug\netcoreapp2.0\Quartz.Admin.dll
+C:\project\CODE\ABI\dev\Quartz.Admin\Quartz.Admin\obj\Debug\netcoreapp2.0\Quartz.Admin.pdb
+C:\project\CODE\ABI\dev\Quartz.Admin\Quartz.Admin\bin\Debug\netcoreapp2.0\Quartz.Core.dll
+C:\project\CODE\ABI\dev\Quartz.Admin\Quartz.Admin\bin\Debug\netcoreapp2.0\Quartz.Core.pdb

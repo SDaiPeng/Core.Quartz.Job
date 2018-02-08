@@ -1,0 +1,10 @@
+﻿<Properties StartupConfiguration="{26D7DBFF-CE8D-4B4E-8825-E7B9A0AE351C}|Default">
+  <MonoDevelop.Ide.ItemProperties.Quartz.Admin PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

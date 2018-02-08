@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewData["Title"] = "Add";
+}
+<div class="wrapper" style="height:100%;">
+    <div class="container">
+        <div class="row">
+            <div class="control-group">
+                @Html.ActionLink("返回", "Index", "Home")
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="basicinput">TriggerKey</label>
+                <div class="controls">
+                    <input type="text" id="triggerKey" placeholder="TriggerKey" class="span8" />
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="basicinput">Cron表达式</label>
+                <div class="controls">
+                    <input type="text" id="cron" placeholder="Cron" class="span8" />
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="basicinput">请求API地址</label>
+                <div class="controls">
+                    <input type="text" id="url" placeholder="Url" class="span8" />
+                </div>
+            </div>
+            <div class="control-group">
+                <a id="submit" class="btn btn-large btn-primary">确定</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/cronValidate.js"></script>
+<script>
+    $(function () {
+        $("#submit").click(function () {
+            var _triggerKey = $("#triggerKey").val();
+            var _url = $("#url").val();
+            var _cron = $("#cron").val();
+            if (_triggerKey == "") {
+                alert("TriggerKey不能为空");
+                return false;
+            }
+            if (_url == "") {
+                alert("Url不能为空");
+                return false;
+            }
+            if (cronValidate(_cron) != true) {
+                alert(cronValidate(_cron));
+                return false;
+            }
+            scheduler.addJob(_triggerKey, _url, _cron)
+        });
+    });
+
+    var scheduler = {
+        addJob: function (triggerKey, url, cron) {
+            $.ajax({
+                url: '/Home/AddTrigger',
+                type: 'POST',
+                data: { TriggerKey: triggerKey, Url: url, Cron: cron },
+                success: function (data) {
+                    if (data.isSuccess) {
+                        location.href = "/Home/Index";
+                    } else {
+                        if (data.msg != "") {
+                            alert(data.msg);
+                        } else {
+                            alert("系统错误");
+                        }
+                    }
+                }
+            })
+        }
+    }
+</script>
+
+
+
